@@ -1,4 +1,6 @@
 # androidydl
+Credits: https://github.com/shukryshuk/androidydl
+
 Youtube-DL for android with termux
 
 How to use and install please refer here:-
