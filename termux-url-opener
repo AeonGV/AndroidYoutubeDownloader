@@ -1,1 +1,11 @@
-youtube-dl $1
+#!/bin/bash
+url=$1
+echo "(a)udio, (v)ideo?"
+read answer
+if [ "$answer" == "a" ]; then
+    youtube-dl -x --audio-format mp3 --audio-quality 0 --embed-thumbnail $1
+elif [ "$answer" == "v" ]; then
+    youtube-dl $1
+fi
+exit
+exit
