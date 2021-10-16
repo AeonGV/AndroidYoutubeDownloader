@@ -1,5 +1,5 @@
 # androidydl
-Credits: https://github.com/shukryshuk/androidydl
+Cloned from: https://github.com/shukryshuk/androidydl
 
 Youtube-DL for android with termux
 
